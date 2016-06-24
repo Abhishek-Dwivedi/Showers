@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462984471CE8605200DC58D8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462984461CE8605200DC58D8 /* Weather.swift */; };
+		462984551CE8A8BC00DC58D8 /* NetworkOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462984541CE8A8BC00DC58D8 /* NetworkOperator.swift */; };
+		462984571CE8ED5900DC58D8 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462984561CE8ED5900DC58D8 /* WeatherService.swift */; };
+		46D8FE291CE7A6AE001AB0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8FE281CE7A6AE001AB0EC /* AppDelegate.swift */; };
+		46D8FE2B1CE7A6AE001AB0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8FE2A1CE7A6AE001AB0EC /* ViewController.swift */; };
+		46D8FE2E1CE7A6AE001AB0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D8FE2C1CE7A6AE001AB0EC /* Main.storyboard */; };
+		46D8FE301CE7A6AE001AB0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D8FE2F1CE7A6AE001AB0EC /* Assets.xcassets */; };
+		46D8FE331CE7A6AE001AB0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D8FE311CE7A6AE001AB0EC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462984461CE8605200DC58D8 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		462984541CE8A8BC00DC58D8 /* NetworkOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperator.swift; sourceTree = "<group>"; };
+		462984561CE8ED5900DC58D8 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		46D8FE251CE7A6AE001AB0EC /* Showers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Showers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D8FE281CE7A6AE001AB0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D8FE2A1CE7A6AE001AB0EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D8FE2D1CE7A6AE001AB0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D8FE2F1CE7A6AE001AB0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D8FE321CE7A6AE001AB0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D8FE341CE7A6AE001AB0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D8FE221CE7A6AE001AB0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465333541CEA3E0300003A15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				462984461CE8605200DC58D8 /* Weather.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		465333551CEA3E0A00003A15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46D8FE2C1CE7A6AE001AB0EC /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		465333561CEA3E1000003A15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46C4348D1D0C4085004C21EA /* Data Layer */,
+				46C4348C1D0C4070004C21EA /* Network Layer */,
+				46D8FE281CE7A6AE001AB0EC /* AppDelegate.swift */,
+				46D8FE2A1CE7A6AE001AB0EC /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46C4348C1D0C4070004C21EA /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				462984541CE8A8BC00DC58D8 /* NetworkOperator.swift */,
+			);
+			name = "Network Layer";
+			sourceTree = "<group>";
+		};
+		46C4348D1D0C4085004C21EA /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				462984561CE8ED5900DC58D8 /* WeatherService.swift */,
+			);
+			name = "Data Layer";
+			sourceTree = "<group>";
+		};
+		46D8FE1C1CE7A6AD001AB0EC = {
+			isa = PBXGroup;
+			children = (
+				46D8FE271CE7A6AE001AB0EC /* Showers */,
+				46D8FE261CE7A6AE001AB0EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D8FE261CE7A6AE001AB0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D8FE251CE7A6AE001AB0EC /* Showers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D8FE271CE7A6AE001AB0EC /* Showers */ = {
+			isa = PBXGroup;
+			children = (
+				465333541CEA3E0300003A15 /* Model */,
+				465333551CEA3E0A00003A15 /* View */,
+				465333561CEA3E1000003A15 /* Controller */,
+				46D8FE2F1CE7A6AE001AB0EC /* Assets.xcassets */,
+				46D8FE311CE7A6AE001AB0EC /* LaunchScreen.storyboard */,
+				46D8FE341CE7A6AE001AB0EC /* Info.plist */,
+			);
+			path = Showers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D8FE241CE7A6AE001AB0EC /* Showers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D8FE371CE7A6AE001AB0EC /* Build configuration list for PBXNativeTarget "Showers" */;
+			buildPhases = (
+				46D8FE211CE7A6AE001AB0EC /* Sources */,
+				46D8FE221CE7A6AE001AB0EC /* Frameworks */,
+				46D8FE231CE7A6AE001AB0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Showers;
+			productName = Showers;
+			productReference = 46D8FE251CE7A6AE001AB0EC /* Showers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D8FE1D1CE7A6AE001AB0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Abhishek Dwivedi";
+				TargetAttributes = {
+					46D8FE241CE7A6AE001AB0EC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 46D8FE201CE7A6AE001AB0EC /* Build configuration list for PBXProject "Showers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D8FE1C1CE7A6AD001AB0EC;
+			productRefGroup = 46D8FE261CE7A6AE001AB0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D8FE241CE7A6AE001AB0EC /* Showers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D8FE231CE7A6AE001AB0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D8FE331CE7A6AE001AB0EC /* LaunchScreen.storyboard in Resources */,
+				46D8FE301CE7A6AE001AB0EC /* Assets.xcassets in Resources */,
+				46D8FE2E1CE7A6AE001AB0EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D8FE211CE7A6AE001AB0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462984571CE8ED5900DC58D8 /* WeatherService.swift in Sources */,
+				46D8FE2B1CE7A6AE001AB0EC /* ViewController.swift in Sources */,
+				462984471CE8605200DC58D8 /* Weather.swift in Sources */,
+				46D8FE291CE7A6AE001AB0EC /* AppDelegate.swift in Sources */,
+				462984551CE8A8BC00DC58D8 /* NetworkOperator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46D8FE2C1CE7A6AE001AB0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D8FE2D1CE7A6AE001AB0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D8FE311CE7A6AE001AB0EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D8FE321CE7A6AE001AB0EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D8FE351CE7A6AE001AB0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D8FE361CE7A6AE001AB0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D8FE381CE7A6AE001AB0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Showers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AbhishekDwivedi.Showers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		46D8FE391CE7A6AE001AB0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Showers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AbhishekDwivedi.Showers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D8FE201CE7A6AE001AB0EC /* Build configuration list for PBXProject "Showers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D8FE351CE7A6AE001AB0EC /* Debug */,
+				46D8FE361CE7A6AE001AB0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D8FE371CE7A6AE001AB0EC /* Build configuration list for PBXNativeTarget "Showers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D8FE381CE7A6AE001AB0EC /* Debug */,
+				46D8FE391CE7A6AE001AB0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D8FE1D1CE7A6AE001AB0EC /* Project object */;
+}
